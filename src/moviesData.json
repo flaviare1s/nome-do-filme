@@ -27,37 +27,37 @@
       {
         "id": 6,
         "title": "Scream",
-        "hints": ["Deadly phone call", "", "", "", ""]
+        "hints": ["Deadly phone call", "Being a virgin gives you an advantage", "Ghostface", "Homage to classic horror films", "There were several sequels"]
       },
       {
         "id": 7,
-        "title": "Terminator 3",
-        "hints": ["Talk to the hand", "", "", "", ""]
+        "title": "Terminator 3: Rise of the Machines",
+        "hints": ["Talk to the hand", "Skynet", "Humans versus AI", "Sarah Connor", "Arnold Schwarzenegger"]
       },
       {
         "id": 8,
         "title": "Seven",
-        "hints": ["Wrath makes you lose your head", "Do not be lazy", "", "", "Brad Pitt"]
+        "hints": ["Wrath makes you lose your head", "Do not be lazy", "Two cops", "David Fincher", "Brad Pitt"]
       },
       {
         "id": 9,
         "title": "Hunger Games",
-        "hints": ["I'm listen to the mockingjays", "", "", "", ""]
+        "hints": ["I'm listen to the mockingjays", "teste", "teste", "teste", "teste"]
       },
       {
         "id": 10,
         "title": "Jigsaw",
-        "hints": ["A puppet clown riding a bicycle", "", "", "", ""]
+        "hints": ["A puppet clown riding a bicycle", "teste", "teste", "teste", "teste"]
       },
       {
         "id": 11,
         "title": "Interstellar",
-        "hints": ["Books falling from the shelf", "", "", "", ""]
+        "hints": ["Books falling from the shelf", "teste", "teste", "teste", "teste"]
       },
       {
         "id": 12,
         "title": "Meet the Parents",
-        "hints": ["A cat named Jinx", "Mr. Focker?", "", "", ""]
+        "hints": ["A cat named Jinx", "Mr. Focker?", "teste", "teste", "teste", "teste"]
       },
 ]
   
