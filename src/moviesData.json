@@ -10,56 +10,56 @@
         "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
       },
       {
-        "id": 2,
-        "title": "The Shawshank Redemption",
+        "id": 3,
+        "title": "The Lord Of The Rings",
+        "hints": ["Something really precious", "Something shall not pass", "Three stone trolls", "Sauron", "Tolkien"]
+      },
+      {
+        "id": 4,
+        "title": "Pulp Fiction",
+        "hints": ["", "", "Ethan Hunt", "", "Tom Cruise"]
+      },
+      {
+        "id": 5,
+        "title": "Mission: Impossible",
         "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
       },
       {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+        "id": 6,
+        "title": "Scream",
+        "hints": ["Deadly phone call", "", "", "", ""]
       },
       {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+        "id": 7,
+        "title": "Terminator 3",
+        "hints": ["Talk to the hand", "", "", "", ""]
       },
       {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+        "id": 8,
+        "title": "Seven",
+        "hints": ["Wrath makes you lose your head", "Do not be lazy", "", "", "Brad Pitt"]
       },
       {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+        "id": 9,
+        "title": "Hunger Games",
+        "hints": ["I'm listen to the mockingjays", "", "", "", ""]
       },
       {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+        "id": 10,
+        "title": "Jigsaw",
+        "hints": ["A puppet clown riding a bicycle", "", "", "", ""]
       },
       {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+        "id": 11,
+        "title": "Interstellar",
+        "hints": ["Books falling from the shelf", "", "", "", ""]
       },
       {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+        "id": 12,
+        "title": "Meet the Parents",
+        "hints": ["A cat named Jinx", "Mr. Focker?", "", "", ""]
       },
-      {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
-      },
-      {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
-      },
-      
+
 ]
   
   
@@ -71,14 +71,11 @@
   
   
   
-  Sauron: The Lord Of The Rings,
-  Expensive milk shake: Pulp Fiction,
-  Ethan Hunt: Mission: Impossible,
-  Deadly phone call: Scream,
-  Talk to the hand: Terminator 3,
-  Wrath makes you lose your head: Seven,
-  I'm listen to the mockingjays: Hunger Games,
-  A puppet clown riding a bicycle 🤔: Jigsaw,
-  Books falling from the shelf: Interstellar,
-  A cat named Jinx: Meet the Parents
   
+ 
+
+
+
+
+ 
+
