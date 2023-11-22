@@ -33,7 +33,7 @@ export function Game({ moviesData }) {
         setScore(score + pointsEarned)
 
         if (currentMovieIndex < moviesData.length - 1) {
-          setCongratulationsMessage('Congratulations! You got the movie right!')
+          alert('Congratulations! You got the movie right!')
           setTimeout(() => {
             setCurrentMovieIndex(currentMovieIndex + 1)
             setCurrentHintIndex(0)
