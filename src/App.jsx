@@ -5,7 +5,7 @@ export function App() {
 
   return (
     <div className='App'>
-      <h1>What's the movie?</h1>
+      <h1>WHAT'S THE MOVIE?</h1>
     </div>
   )
 }
