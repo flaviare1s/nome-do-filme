@@ -1,11 +1,11 @@
 import './StartScreen.css'
 
-export const StartScreen = () => {
+export const StartScreen = ({startGame}) => {
   return (
     <div className='start'>
         <h1>WHAT'S THE MOVIE?</h1>
         <p>Click the button below to start playing!</p>
-        <button>Let's Start</button>
+        <button onClick={startGame}>Let's Start</button>
     </div>
   )
 }
