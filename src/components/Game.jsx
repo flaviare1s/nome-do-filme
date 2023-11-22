@@ -1,6 +1,6 @@
 import './Game.css'
 
-export const Game = () => {
+export const Game = ({moviesData}) => {
   return (
     <div>Game</div>
   )

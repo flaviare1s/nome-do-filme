@@ -17,12 +17,12 @@
       {
         "id": 4,
         "title": "Pulp Fiction",
-        "hints": ["", "", "Ethan Hunt", "", "Tom Cruise"]
+        "hints": ["Expensive milk shake", "A hidden watch", "Adrenaline in the chest", "Girl, You'll Be A Woman Soon", "Quentin Tarantino"]
       },
       {
         "id": 5,
         "title": "Mission: Impossible",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+        "hints": ["Safe and sweat", "This hint will self destruct in five seconds", "Be careful with masks", "Ethan Hunt", "Tom Cruise"]
       },
       {
         "id": 6,
@@ -59,7 +59,6 @@
         "title": "Meet the Parents",
         "hints": ["A cat named Jinx", "Mr. Focker?", "", "", ""]
       },
-
 ]
   
   

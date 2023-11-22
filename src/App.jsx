@@ -6,6 +6,8 @@ import { StartScreen } from './components/StartScreen'
 import { Game } from './components/Game'
 import { GameOver } from './components/GameOver'
 
+import moviesData from './moviesData.json'
+
 const stages = [
   {id: 1, name: 'start'},
   {id: 2, name: 'game'},
@@ -22,7 +24,7 @@ export function App() {
   return (
    <div className='App'>
     {gameStage === 'start' && < StartScreen startGame={startGame}/>}
-    {gameStage === 'game' && < Game />}
+    {gameStage === 'game' && < Game moviesData={moviesData} />}
     {gameStage === 'end' && < GameOver />}
    </div>
   )
