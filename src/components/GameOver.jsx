@@ -1,7 +1,13 @@
+import React from 'react'
+
 import './GameOver.css'
 
-export const GameOver = () => {
+export function GameOver({ onRestart }) {
   return (
-    <div>GameOver</div>
-  )
+    <div>
+      <h1>Game Over!</h1>
+      <p>Você perdeu todas as vidas.</p>
+      <button onClick={onRestart}>Reiniciar</button>
+    </div>
+  );
 }
