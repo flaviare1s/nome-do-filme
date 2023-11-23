@@ -135,23 +135,25 @@ export function Game({ moviesData }) {
                 Guess the Movie:
                 <input type="text" value={guess} onChange={handleGuessChange} />
               </label>
-              <button type="submit">
-                Take a guess
-              </button>
+              <p>
+                  <button type="submit">
+                    Take a guess
+                  </button>
+              </p>
             </form>
           )}
 
           {showOptions && (
             <div>
               <p>Do you want another tip or do you want to change movie?</p>
-              <button onClick={() => handleOptionClick('retry')}>Keep trying</button>
-              <button onClick={() => handleOptionClick('changeMovie')}>Change movie</button>
+              <p><button onClick={() => handleOptionClick('retry')}>Keep trying</button></p>
+              <p><button onClick={() => handleOptionClick('changeMovie')}>Change movie</button></p>
             </div>
           )}
 
           <div>
             <h3>Hints:</h3>
-            <ul>
+            <ul className='hints_box'>
               {currentMovie.hints.slice(0, currentHintIndex + 1).map((hint, index) => (
                 <li key={index}>{hint}</li>
               ))}
