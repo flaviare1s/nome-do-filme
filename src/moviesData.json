@@ -31,7 +31,7 @@
       },
       {
         "id": 7,
-        "title": "Terminator 3: Rise of the Machines",
+        "title": "The Terminator 3: Rise of the Machines",
         "hints": ["Talk to the hand", "Skynet", "Humans versus AI", "Sarah Connor", "Arnold Schwarzenegger"]
       },
       {
@@ -42,7 +42,7 @@
       {
         "id": 9,
         "title": "Hunger Games",
-        "hints": ["I'm listen to the mockingjays", "teste", "teste", "teste", "teste"]
+        "hints": ["I'm listen to the mockingjays", "They like fashion in the Capitol", "A dress on fire", "Katniss", "Based on a series of books"]
       },
       {
         "id": 10,
@@ -52,12 +52,12 @@
       {
         "id": 11,
         "title": "Interstellar",
-        "hints": ["Books falling from the shelf", "teste", "teste", "teste", "teste"]
+        "hints": ["Books falling from the shelf", "Different dimensions", "Environmental problems", "Science fiction", "Christopher Nolan"]
       },
       {
         "id": 12,
         "title": "Meet the Parents",
-        "hints": ["A cat named Jinx", "Mr. Focker?", "teste", "teste", "teste", "teste"]
+        "hints": ["A cat named Jinx", "Mr. Focker?", "A future marriage", "Ben Stiller", "Robert De Niro"]
       }
 ]
   
