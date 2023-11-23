@@ -124,7 +124,7 @@ export function Game({ moviesData }) {
     }, [lives, congratulationsMessage])
   
     return (
-      <div>
+      <div className='start'>
         {lives > 0 ? (
           <>
             <h1>Score: {score}</h1>
@@ -162,11 +162,11 @@ export function Game({ moviesData }) {
             {showHints && (
               <div>
                 <h3>Hints:</h3>
-                <ul className='hints_box'>
+                <ol className='hints_box'>
                   {currentMovie.hints.slice(0, currentHintIndex + 1).map((hint, index) => (
                     <li key={index}>{hint}</li>
                   ))}
-                </ul>
+                </ol>
               </div>
             )}
           </>
