@@ -6,8 +6,8 @@ export function GameOver({ onRestart }) {
   return (
     <div>
       <h1>Game Over!</h1>
-      <p>Você perdeu todas as vidas.</p>
-      <button onClick={onRestart}>Reiniciar</button>
+      <p>You lost all your lives!</p>
+      <button onClick={onRestart}>Restart</button>
     </div>
   );
 }
