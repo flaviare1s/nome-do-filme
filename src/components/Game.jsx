@@ -61,7 +61,7 @@ export function Game({ moviesData }) {
         setShowGuessBox(false)
       }
     }
-  };
+  }
 
   const handleOptionClick = (option) => {
     console.log('Option clicked:', option)
@@ -124,7 +124,7 @@ export function Game({ moviesData }) {
           <h1>Score: {score}</h1>
           <h2>Lives: {lives}</h2>
           <p>Hint: {currentMovie.hints[currentHintIndex]}</p>
-          <p>Remaining Hints: {remainingHints}</p>
+          <p>Remaining Hints: {Math.max(remainingHints, 0)}</p>
 
           {congratulationsMessage && <p>{congratulationsMessage}</p>}
           {lossMessage && <p>{lossMessage}</p>}
