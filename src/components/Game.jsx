@@ -22,49 +22,52 @@ export function Game({ moviesData }) {
     const remainingHints = totalHints - currentHintIndex - 1
   
     const handleGuess = (userGuess) => {
-      console.log('Handling guess:', userGuess)
+      console.log('Handling guess:', userGuess);
       if (!hasGuessed) {
         if (!userGuess.trim()) {
-          alert('Please make a guess!')
-          return
+          alert('Please make a guess!');
+          return;
         }
-  
-        if (userGuess.toLowerCase() === currentMovie.title.toLowerCase()) {
-          const pointsEarned = 500 - currentHintIndex * 100
-          setScore(score + pointsEarned)
-  
+    
+        const cleanUserGuess = userGuess.trim().toLowerCase().replace(/[^\w\s]/gi, '');
+        const cleanMovieTitle = currentMovie.title.trim().toLowerCase().replace(/[^\w\s]/gi, '');
+    
+        if (cleanUserGuess === cleanMovieTitle) {
+          const pointsEarned = 500 - currentHintIndex * 100;
+          setScore(score + pointsEarned);
+    
           if (currentMovieIndex < moviesData.length - 1) {
-            alert('Congratulations! You got the movie right!')
+            alert('Congratulations! You got the movie right!');
             setTimeout(() => {
-              setCurrentMovieIndex(currentMovieIndex + 1)
-              setCurrentHintIndex(0)
-              setHasGuessed(false)
-              setShowGuessBox(true)
-              setShowHints(true)
-              setGuess('')
-            }, 500)
+              setCurrentMovieIndex(currentMovieIndex + 1);
+              setCurrentHintIndex(0);
+              setHasGuessed(false);
+              setShowGuessBox(true);
+              setShowHints(true);
+              setGuess('');
+            }, 500);
           } else {
-            setCongratulationsMessage('You have completed the game!')
-            setShowOptions(true)
+            setCongratulationsMessage('You have completed the game!');
+            setShowOptions(true);
           }
         } else {
-          setLives(lives - 1)
-  
+          setLives(lives - 1);
+    
           if (lives === 1) {
-            alert('You lost all your lives!')
-            setShowOptions(true)
+            alert('You lost all your lives!');
+            setShowOptions(true);
           } else {
-            alert('You lost a life!')
-            setShowOptions(true)
+            alert('You lost a life!');
+            setShowOptions(true);
           }
-  
-          setGuess('')
-          setHasGuessed(true)
-          setShowGuessBox(false)
-          setShowHints(false)
+    
+          setGuess('');
+          setHasGuessed(true);
+          setShowGuessBox(false);
+          setShowHints(false);
         }
       }
-    }
+    };
   
     const handleOptionClick = (option) => {
       console.log('Option clicked:', option)
