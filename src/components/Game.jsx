@@ -129,8 +129,8 @@ export function Game({ moviesData }) {
           <>
             <h1>Score: {score}</h1>
             <h2>Lives: {lives}</h2>
-            <p>Hint: {currentMovie.hints[currentHintIndex]}</p>
-            <p>Remaining Hints: {Math.max(remainingHints, 0)}</p>
+            <p className='hints_control'>Hint: {currentMovie.hints[currentHintIndex]}</p>
+            <p className='hints_control'>Remaining Hints: {Math.max(remainingHints, 0)}</p>
   
             {congratulationsMessage && <p>{congratulationsMessage}</p>}
             {lossMessage && <p>{lossMessage}</p>}
@@ -138,8 +138,8 @@ export function Game({ moviesData }) {
             {showGuessBox && !showOptions && (
               <form onSubmit={handleGuessSubmit}>
                 <label>
-                  Guess the Movie:
-                  <input type="text" value={guess} onChange={handleGuessChange} />
+                  <span className='guess_text'>Guess the Movie: </span> 
+                  <input className='guess_box' type="text" value={guess} onChange={handleGuessChange} />
                 </label>
                 <p>
                   <button type="submit">Take a guess</button>
