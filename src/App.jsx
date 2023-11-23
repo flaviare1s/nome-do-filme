@@ -18,6 +18,7 @@ export function App() {
   const [shuffledMovies, setShuffledMovies] = useState([])
 
   const startGame = () => {
+   
     setShuffledMovies(shuffleMovies())
     setGameStage(stages[1].name)
   }
