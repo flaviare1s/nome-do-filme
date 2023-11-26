@@ -58,6 +58,16 @@
         "id": 12,
         "title": "Meet the Parents",
         "hints": ["A cat named Jinx", "Mr. Focker?", "A future marriage", "Ben Stiller", "Robert De Niro"]
+      },
+      {
+        "id": 13,
+        "title": "300",
+        "hints": ["A Persian messenger", "War elephants", "Greece", "The name of the film is a number", "Leónidas"]
+      },
+      {
+        "id": 14,
+        "title": "Beauty and the Beast",
+        "hints": ["A very precious rose", "Small village in France", "Clock, teapot and candlestick", "An Enchanted Castle", "Disney"]
       }
 ]
   
