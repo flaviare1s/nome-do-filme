@@ -1,74 +1,99 @@
 [
     {
-        "id": 1,
-        "title": "Inception",
-        "hints": ["Five Levels", "Architect", "Dreams within dreams", "Leonardo DiCaprio", "Christopher Nolan"]
+      "id": 1,
+      "title": "Inception",
+      "hints": ["Five Levels", "Architect", "Dreams within dreams", "Leonardo DiCaprio", "Christopher Nolan"]
     },
     {
-        "id": 2,
-        "title": "The Shawshank Redemption",
-        "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
-      },
-      {
-        "id": 3,
-        "title": "The Lord Of The Rings",
-        "hints": ["Something really precious", "Something shall not pass", "Three stone trolls", "Sauron", "Tolkien"]
-      },
-      {
-        "id": 4,
-        "title": "Pulp Fiction",
-        "hints": ["Expensive milk shake", "A hidden watch", "Adrenaline in the chest", "Girl, You'll Be A Woman Soon", "Quentin Tarantino"]
-      },
-      {
-        "id": 5,
-        "title": "Mission: Impossible",
-        "hints": ["Safe and sweat", "This hint will self destruct in five seconds", "Be careful with masks", "Ethan Hunt", "Tom Cruise"]
-      },
-      {
-        "id": 6,
-        "title": "Scream",
-        "hints": ["Deadly phone call", "Being a virgin gives you an advantage", "Ghostface", "Homage to classic horror films", "There were several sequels"]
-      },
-      {
-        "id": 7,
-        "title": "The Terminator 3: Rise of the Machines",
-        "hints": ["Talk to the hand", "Skynet", "Humans versus AI", "Sarah Connor", "Arnold Schwarzenegger"]
-      },
-      {
-        "id": 8,
-        "title": "Seven",
-        "hints": ["Wrath makes you lose your head", "Do not be lazy", "Two cops", "David Fincher", "Brad Pitt"]
-      },
-      {
-        "id": 9,
-        "title": "The Hunger Games",
-        "hints": ["I'm listen to the mockingjays", "They like fashion in the Capitol", "A dress on fire", "Katniss", "Based on a series of books"]
-      },
-      {
-        "id": 10,
-        "title": "Saw",
-        "hints": ["A puppet clown riding a bicycle", "Sadistic traps", "A long time in a bathroom", "James Wan", "This film marks the beginning of a highly successful horror franchise"]
-      },
-      {
-        "id": 11,
-        "title": "Interstellar",
-        "hints": ["Books falling from the shelf", "Different dimensions", "Environmental problems", "Science fiction", "Christopher Nolan"]
-      },
-      {
-        "id": 12,
-        "title": "Meet the Parents",
-        "hints": ["A cat named Jinx", "Mr. Focker?", "A future marriage", "Ben Stiller", "Robert De Niro"]
-      },
-      {
-        "id": 13,
-        "title": "300",
-        "hints": ["A Persian messenger", "War elephants", "Greece", "The name of the film is a number", "Leónidas"]
-      },
-      {
-        "id": 14,
-        "title": "Beauty and the Beast",
-        "hints": ["A very precious rose", "Small village in France", "Clock, teapot and candlestick", "An Enchanted Castle", "Disney"]
-      }
+      "id": 2,
+      "title": "The Shawshank Redemption",
+      "hints": ["Inside the bible", "Prison escape", "Morgan Freeman", "Tim Robbins", "Stephen King"]
+    },
+    {
+      "id": 3,
+      "title": "The Lord Of The Rings",
+      "hints": ["Something really precious", "Something shall not pass", "Three stone trolls", "Sauron", "Tolkien"]
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "hints": ["Expensive milk shake", "A hidden watch", "Adrenaline in the chest", "Girl, You'll Be A Woman Soon", "Quentin Tarantino"]
+    },
+    {
+      "id": 5,
+      "title": "Mission: Impossible",
+      "hints": ["Safe and sweat", "This hint will self destruct in five seconds", "Be careful with masks", "Ethan Hunt", "Tom Cruise"]
+    },
+    {
+      "id": 6,
+      "title": "Scream",
+      "hints": ["Deadly phone call", "Being a virgin gives you an advantage", "Ghostface", "Homage to classic horror films", "There were several sequels"]
+    },
+    {
+      "id": 7,
+      "title": "The Terminator 3: Rise of the Machines",
+      "hints": ["Talk to the hand", "Skynet", "Humans versus AI", "Sarah Connor", "Arnold Schwarzenegger"]
+    },
+    {
+      "id": 8,
+      "title": "Seven",
+      "hints": ["Wrath makes you lose your head", "Do not be lazy", "Two cops", "David Fincher", "Brad Pitt"]
+    },
+    {
+      "id": 9,
+      "title": "The Hunger Games",
+      "hints": ["I'm listen to the mockingjays", "They like fashion in the Capitol", "A dress on fire", "Katniss", "Based on a series of books"]
+    },
+    {
+      "id": 10,
+      "title": "Saw",
+      "hints": ["A puppet clown riding a bicycle", "Sadistic traps", "A long time in a bathroom", "James Wan", "This film marks the beginning of a highly successful horror franchise"]
+    },
+    {
+      "id": 11,
+      "title": "Interstellar",
+      "hints": ["Books falling from the shelf", "Different dimensions", "Environmental problems", "Science fiction", "Christopher Nolan"]
+    },
+    {
+      "id": 12,
+      "title": "Meet the Parents",
+      "hints": ["A cat named Jinx", "Mr. Focker?", "A future marriage", "Ben Stiller", "Robert De Niro"]
+    },
+    {
+      "id": 13,
+      "title": "300",
+      "hints": ["A Persian messenger", "War elephants", "Greece", "The name of the film is a number", "Leónidas"]
+    },
+    {
+      "id": 14,
+      "title": "Beauty and the Beast",
+      "hints": ["A very precious rose", "Small village in France", "Clock, teapot and candlestick", "An Enchanted Castle", "Disney"]
+    },
+    {
+      "id": 15,
+      "title": "Kill Bill",
+      "hints": ["The film has two parts", "Black Mamba", "A thirst for vengeance", "Pai Mei", "Quentin Tarantino"]
+    },
+    {
+      "id": 16,
+      "title": "Nightmare On Elm Street",
+      "hints": ["The name of the film refers to a street", "Dangerous dreams", "Burned alive", "A famous Freddy", "Wes Craven"]
+    },
+    {
+      "id": 17,
+      "title": "The Sound Of Music",
+      "hints": ["A classic musical", "Fraulein Maria", "Von Trapp family", "Nazi Rule", "Julie Andrews and Christopher Plummer"]
+    },
+    {
+      "id": 18,
+      "title": "Harry Potter",
+      "hints": ["A castle in England", "Three inseparable friends", "Lightning-shaped scar", "Wizards and muggles", "You know who is the bad guy"]
+    },
+    {
+      "id": 19,
+      "title": "Harry Potter",
+      "hints": ["Um castelo na Inglaterra", "Três amigos inseparáveis", "Cicatriz em forma de raio", "", ""]
+    }
 ]
   
   
