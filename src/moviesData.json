@@ -88,6 +88,11 @@
       "id": 18,
       "title": "Harry Potter",
       "hints": ["A castle in England", "Three inseparable friends", "Lightning-shaped scar", "Wizards and muggles", "You know who is the bad guy"]
+    },
+    {
+      "id": 19,
+      "title": "The Shining",
+      "hints": ["REDRUM", "Overlook Hotel", "Twins wearing a blue dress", "Jack Nicholson", "Stephen King"]
     }
 ]
   
