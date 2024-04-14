@@ -93,6 +93,11 @@
       "id": 19,
       "title": "The Shining",
       "hints": ["REDRUM", "Overlook Hotel", "Twins wearing a blue dress", "Jack Nicholson", "Stephen King"]
+    },
+    {
+      "id": 20,
+      "title": "The Omen",
+      "hints": ["Damien Thorn", "A replaced child", "666", "An important Priest", "Antichrist"]
     }
 ]
   
