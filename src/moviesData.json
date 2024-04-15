@@ -98,6 +98,31 @@
       "id": 20,
       "title": "The Omen",
       "hints": ["Damien Thorn", "A replaced child", "666", "An important Priest", "Antichrist"]
+    },
+    {
+      "id": 21,
+      "title": "Flatliners",
+      "hints": ["Near-death experiences", "Famous thriller from the 90s","Secrets of the past", "Five curious medical students", "Joel Schumacher"]
+    },
+    {
+      "id": 22,
+      "title": "Ghostbusters",
+      "hints": ["Marshmallow Man", "An iconic theme song by Ray Parker Jr.", "Ghosts", "New York City", "Sigourney Weaver and Bill Murray"]
+    },
+    {
+      "id": 23,
+      "title": "Pretty Woman",
+      "hints": ["Beverly Hills", "A very famous love story from the 90s", "A remarkable song", "Modern Cinderella", "Julia Roberts and Richard Gere"]
+    },
+    {
+      "id": 24,
+      "title": "Interview With The Vampire",
+      "hints": ["Bloodlust", "Tom Cruise and Brad Pitt", "Lestat and Louis", "Vampires", "Anne Rice"]
+    },
+    {
+      "id": 25,
+      "title": "Ghost",
+      "hints": ["Love transcends death", "Pottery scene", "Ghostly communication", "Whoopi Goldberg's Oscar-winning performance", "Patrick Swayze and Demi Moore"]
     }
 ]
   
