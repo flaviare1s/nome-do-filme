@@ -57,7 +57,7 @@ export function Game({ moviesData }) {
             toast.error('You lost all your lives!');
             setShowOptions(true);
           } else {
-            toast.custom('You lost a life!');
+            toast.error('You lost a life!');
             setShowOptions(true);
           }
     
