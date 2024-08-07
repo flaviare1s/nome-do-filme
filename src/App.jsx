@@ -6,6 +6,7 @@ import { StartScreen } from './components/StartScreen'
 import { Game } from './components/Game'
 
 import moviesData from './moviesData.json'
+import { Toaster } from 'react-hot-toast'
 
 const stages = [
   { id: 1, name: 'start' },
@@ -33,6 +34,7 @@ export function App() {
     <div className='App'>
       {gameStage === 'start' && <StartScreen startGame={startGame} />}
       {gameStage === 'game' && <Game moviesData={shuffledMovies} />}
+      <Toaster position='top-center' />
     </div>
   )
 }

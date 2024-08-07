@@ -2,6 +2,7 @@ import './Game.css'
 import { useState , useEffect} from 'react'
 
 import { GameOver } from './GameOver'
+import toast from 'react-hot-toast'
 
 export function Game({ moviesData }) {
     const [currentMovieIndex, setCurrentMovieIndex] = useState(0)
@@ -24,7 +25,7 @@ export function Game({ moviesData }) {
       console.log('Handling guess:', userGuess);
       if (!hasGuessed) {
         if (!userGuess.trim()) {
-          alert('Please make a guess!');
+          toast.custom('Please make a guess!');
           return;
         }
     
@@ -36,7 +37,7 @@ export function Game({ moviesData }) {
           setScore(score + pointsEarned);
     
           if (currentMovieIndex < moviesData.length - 1) {
-            alert('Congratulations! You got the movie right!');
+            toast.success('Congratulations! You got the movie right!');
             setTimeout(() => {
               setCurrentMovieIndex(currentMovieIndex + 1);
               setCurrentHintIndex(0);
@@ -53,10 +54,10 @@ export function Game({ moviesData }) {
           setLives(lives - 1);
     
           if (lives === 1) {
-            alert('You lost all your lives!');
+            toast.error('You lost all your lives!');
             setShowOptions(true);
           } else {
-            alert('You lost a life!');
+            toast.custom('You lost a life!');
             setShowOptions(true);
           }
     
@@ -178,4 +179,3 @@ export function Game({ moviesData }) {
       </div>
     )
   }
-  
