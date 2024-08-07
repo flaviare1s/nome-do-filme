@@ -33,5 +33,8 @@ To run the project locally, follow these steps:
 3. Install the dependencies:
    npm install
 
+## Play in
+https://qual-e-o-filme.vercel.app/
+
 ## Contributions
 Contributions are welcome! Feel free to open an issue or submit a pull request.
