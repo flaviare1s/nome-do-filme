@@ -1,6 +1,6 @@
 import './App.css'
 
-import { useCallback, useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import { StartScreen } from './components/StartScreen'
 import { Game } from './components/Game'

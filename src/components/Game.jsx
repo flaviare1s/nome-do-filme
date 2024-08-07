@@ -1,5 +1,4 @@
 import './Game.css'
-import React from 'react';
 import { useState , useEffect} from 'react'
 
 import { GameOver } from './GameOver'
@@ -179,3 +178,4 @@ export function Game({ moviesData }) {
       </div>
     )
   }
+  
