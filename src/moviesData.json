@@ -134,7 +134,18 @@
         "John McClane",
         "Bruce Willis"
       ]
-    }
+    },
+      {
+        "id": 27,
+        "title": "Titanic",
+        "hints": [
+          "A famous ship",
+          "A love story",
+          "13 Oscars",
+          "Leonardo DiCaprio and Kate Winslet",
+          "A shipwreck"
+        ]
+      }
 ]
   
   
